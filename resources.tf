@@ -16,10 +16,10 @@ output "vpc_arn" {
   value = aws_vpc.vpc.arn
 }
 
-output "vpc_enable_dns_support" {
-  value = aws_vpc.vpc.enable_dns_support
-}
+# output "vpc_enable_dns_support" {
+#   value = aws_vpc.vpc.enable_dns_support
+# }
 
-output "vpc_owner_id" {
-  value = aws_vpc.vpc.owner_id
-}
+# output "vpc_owner_id" {
+#   value = aws_vpc.vpc.owner_id
+# }
